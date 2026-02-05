@@ -55,4 +55,16 @@ public class StudentRepository : IStudentRepository
         await _context.SaveChangesAsync();
         return existingStudent;
     }
+
+    public async Task<Student?> DeleteAsync(int? id)
+    {
+        var existingStudent = await GetStudent(id);
+
+        if (existingStudent == null) return null;
+
+        _context.Students.Remove(existingStudent);
+        await _context.SaveChangesAsync();
+
+        return existingStudent;
+    }
 }

@@ -11,4 +11,6 @@ public interface IStudentRepository
     public Task<Student?> GetStudent(int? id);
 
     public Task<Student?> UpdateAsync(int? id, Student student);
+
+    public Task<Student?> DeleteAsync(int? id);
 }
