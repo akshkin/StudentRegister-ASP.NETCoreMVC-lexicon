@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using StudentRegisterMVC.Data;
+using StudentRegisterMVC.Interfaces;
+using StudentRegisterMVC.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,8 @@ builder.Services.AddDbContext<StudentDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString"));
 });
+
+builder.Services.AddScoped<IStudentRepository, StudentRepository>();  
 
 var app = builder.Build();
 
