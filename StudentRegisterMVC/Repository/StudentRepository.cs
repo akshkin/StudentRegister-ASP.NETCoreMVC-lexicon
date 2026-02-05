@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using StudentRegisterMVC.Data;
+using StudentRegisterMVC.Helpers;
 using StudentRegisterMVC.Interfaces;
 using StudentRegisterMVC.Models;
 
@@ -16,9 +17,27 @@ public class StudentRepository : IStudentRepository
     }
 
     // get all students
-    public async Task<IEnumerable<Student>> GetAllAsync()
+    public async Task<IEnumerable<Student>> GetAllAsync(QueryOptions? queryOptions)
     {
-        return await _context.Students.ToListAsync();
+        var students = _context.Students.AsQueryable();
+
+        if (!string.IsNullOrEmpty(queryOptions.SearchQuery))
+        {
+            students = students.Where(s => s.LastName.StartsWith(queryOptions.SearchQuery));
+        }
+        if (queryOptions.SortBy != null)
+        {
+            students = queryOptions.SortBy switch
+            {
+                SortByOptions.FirstNameAsc => students.OrderBy(s => s.FirstName),
+                SortByOptions.FirstNameDes => students.OrderByDescending(s => s.FirstName),
+                SortByOptions.LastNameAsc => students.OrderBy(s => s.LastName),
+                SortByOptions.LastNameDes => students.OrderByDescending(s => s.LastName),
+                _ => students
+            };
+        }
+    
+        return students;
     }
 
     public async Task<Student> CreateAsync(Student student)

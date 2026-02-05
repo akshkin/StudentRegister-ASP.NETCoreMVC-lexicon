@@ -1,10 +1,11 @@
-﻿using StudentRegisterMVC.Models;
+﻿using StudentRegisterMVC.Helpers;
+using StudentRegisterMVC.Models;
 
 namespace StudentRegisterMVC.Interfaces;
 
 public interface IStudentRepository
 {
-    public Task<IEnumerable<Student>> GetAllAsync();
+    public Task<IEnumerable<Student>> GetAllAsync(QueryOptions? queryOptions);
 
     public Task<Student> CreateAsync(Student student);
 
