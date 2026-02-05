@@ -71,5 +71,12 @@ namespace StudentRegisterMVC.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+        public async Task<IActionResult> Details(int? id)
+        {
+            var student = await _studentRepository.GetStudent(id);
+            if (student == null) return NotFound();
+            return View(student);
+        }
     }
 }
