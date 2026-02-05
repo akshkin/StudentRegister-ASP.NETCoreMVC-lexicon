@@ -8,4 +8,6 @@ public class StudentIndexViewModel
 
     public QueryOptions QueryOptions { get; set;  }
 
+    public SortByOptions SortByOptions { get; set; }
+
 }
