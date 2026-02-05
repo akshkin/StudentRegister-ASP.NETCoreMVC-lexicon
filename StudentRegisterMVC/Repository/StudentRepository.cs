@@ -20,4 +20,16 @@ public class StudentRepository : IStudentRepository
     {
         return await _context.Students.ToListAsync();
     }
+
+    public async Task<Student> CreateAsync(Student student)
+    {
+        var newStudent = new Student();
+        newStudent.FirstName = student.FirstName;
+        newStudent.LastName = student.LastName;
+        newStudent.Email = student.Email;
+
+        await _context.Students.AddAsync(newStudent);
+        await _context.SaveChangesAsync();
+        return newStudent;
+    }
 }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using StudentRegisterMVC.Interfaces;
+using StudentRegisterMVC.Models;
 
 namespace StudentRegisterMVC.Controllers
 {
@@ -21,6 +22,19 @@ namespace StudentRegisterMVC.Controllers
         {
             var students = await _studentRepository.GetAllAsync();
             return View(students);
+        }
+
+        public async Task<IActionResult> Create()
+        {
+            return View();
+        }
+
+        // create a new student
+        [HttpPost]
+        public async Task<IActionResult> Create([Bind("FirstName, LastName, Email")] Student student)
+        {
+            var newStudent = await _studentRepository.CreateAsync(student);
+            return RedirectToAction(nameof(Index));
         }
     }
 }
