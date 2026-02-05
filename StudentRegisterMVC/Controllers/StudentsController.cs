@@ -36,5 +36,24 @@ namespace StudentRegisterMVC.Controllers
             var newStudent = await _studentRepository.CreateAsync(student);
             return RedirectToAction(nameof(Index));
         }
+
+        public async Task<IActionResult> Edit(int? id)
+        {
+            var student = await _studentRepository.GetStudent(id);
+            if (student == null) return NotFound();
+            return View(student);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(int? id, [Bind("FirstName, LastName, Email")] Student student)
+        {
+            if (!ModelState.IsValid) return View(student);
+
+            var existingStudent = await _studentRepository.UpdateAsync(id, student);
+
+            if (existingStudent == null) return NotFound();
+          
+            return RedirectToAction(nameof(Index));            
+        }
     }
 }

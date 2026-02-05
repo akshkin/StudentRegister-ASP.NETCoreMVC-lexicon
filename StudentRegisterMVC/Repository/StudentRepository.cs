@@ -32,4 +32,27 @@ public class StudentRepository : IStudentRepository
         await _context.SaveChangesAsync();
         return newStudent;
     }
+
+    public async Task<Student?> GetStudent(int? id)
+    {
+        var student = await _context.Students.FirstOrDefaultAsync(s => s.StudentId == id);
+
+        if (student == null) return null;
+
+        return student;
+    }
+
+    public async Task<Student> UpdateAsync(int? id, Student student)
+    {
+        var existingStudent = await GetStudent(id);
+
+        if (student == null) return null;
+
+        existingStudent.FirstName = student.FirstName;
+        existingStudent.LastName = student.LastName;
+        existingStudent.Email = student.Email;
+
+        await _context.SaveChangesAsync();
+        return existingStudent;
+    }
 }
