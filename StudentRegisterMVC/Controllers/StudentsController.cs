@@ -85,10 +85,5 @@ namespace StudentRegisterMVC.Controllers
             if (student == null) return NotFound();
             return View(student);
         }
-
-        //public async Task<IActionResult> Search([Bind("SearchQuery")] QueryOptions queryOptions)
-        //{
-        //    var students = await _studentRepository.GetAllAsync(queryOptions);
-        //}
     }
 }
