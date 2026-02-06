@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using StudentRegisterMVC.Helpers;
 using StudentRegisterMVC.Interfaces;
 using StudentRegisterMVC.Models;
 
@@ -18,10 +19,16 @@ namespace StudentRegisterMVC.Controllers
         }
 
         // GET: Students
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(QueryOptions queryOptions)
         {
-            var students = await _studentRepository.GetAllAsync();
-            return View(students);
+            var students = await _studentRepository.GetAllAsync(queryOptions);
+
+            var viewModel = new StudentIndexViewModel
+            {
+                Students = students,
+                QueryOptions = queryOptions
+            };
+            return View(viewModel);
         }
 
         public async Task<IActionResult> Create()
@@ -78,5 +85,10 @@ namespace StudentRegisterMVC.Controllers
             if (student == null) return NotFound();
             return View(student);
         }
+
+        //public async Task<IActionResult> Search([Bind("SearchQuery")] QueryOptions queryOptions)
+        //{
+        //    var students = await _studentRepository.GetAllAsync(queryOptions);
+        //}
     }
 }
