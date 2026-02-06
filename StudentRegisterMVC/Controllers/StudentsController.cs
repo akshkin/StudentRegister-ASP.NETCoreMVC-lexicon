@@ -63,14 +63,14 @@ namespace StudentRegisterMVC.Controllers
             return RedirectToAction(nameof(Index));            
         }
 
-        public async Task<IActionResult> Delete(int? id)
-        {
-            var student = await _studentRepository.GetStudent(id);
-            return View(student);
-        }
+        //public async Task<IActionResult> Delete(int? id)
+        //{
+        //    var student = await _studentRepository.GetStudent(id);
+        //    return View(student);
+        //}
 
-        [HttpPost, ActionName("Delete")]
-        public async Task<IActionResult> DeleteConfirmed(int? id)
+        [HttpPost]
+        public async Task<IActionResult> Delete(int? id)
         {
             var student = await _studentRepository.DeleteAsync(id);
 
