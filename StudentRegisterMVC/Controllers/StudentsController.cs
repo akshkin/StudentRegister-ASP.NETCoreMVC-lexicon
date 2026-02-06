@@ -63,14 +63,14 @@ namespace StudentRegisterMVC.Controllers
             return RedirectToAction(nameof(Index));            
         }
 
-        public async Task<IActionResult> Delete(int? id)
-        {
-            var student = await _studentRepository.GetStudent(id);
-            return View(student);
-        }
+        //public async Task<IActionResult> Delete(int? id)
+        //{
+        //    var student = await _studentRepository.GetStudent(id);
+        //    return View(student);
+        //}
 
-        [HttpPost, ActionName("Delete")]
-        public async Task<IActionResult> DeleteConfirmed(int? id)
+        [HttpPost]
+        public async Task<IActionResult> Delete(int? id)
         {
             var student = await _studentRepository.DeleteAsync(id);
 
@@ -85,10 +85,5 @@ namespace StudentRegisterMVC.Controllers
             if (student == null) return NotFound();
             return View(student);
         }
-
-        //public async Task<IActionResult> Search([Bind("SearchQuery")] QueryOptions queryOptions)
-        //{
-        //    var students = await _studentRepository.GetAllAsync(queryOptions);
-        //}
     }
 }
