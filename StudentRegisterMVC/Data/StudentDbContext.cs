@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using StudentRegisterMVC.Models;
 
 namespace StudentRegisterMVC.Data;
 
-public class StudentDbContext : DbContext
+public class StudentDbContext : IdentityDbContext<ApplicationUser>
 {
     public StudentDbContext(DbContextOptions<StudentDbContext> options) : base(options) 
     {
@@ -15,29 +16,5 @@ public class StudentDbContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
-
-        modelBuilder.Entity<Student>().HasData(
-            new Student
-            {
-                StudentId = 1,
-                FirstName = "Harry",
-                LastName = "Potter",
-                Email = "harrypotter@gmail.com"
-            },
-             new Student
-             {
-                 StudentId = 2,
-                 FirstName = "Ron",
-                 LastName = "Weasley",
-                 Email = "ronweasley@gmail.com"
-             },
-              new Student
-              {
-                  StudentId = 3,
-                  FirstName = "Hermione",
-                  LastName = "Granger",
-                  Email = "hermionegranger1@gmail.com"
-              }
-            );
     }
 }

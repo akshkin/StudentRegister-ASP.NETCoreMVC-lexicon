@@ -4,9 +4,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace StudentRegisterMVC.Models;
 
-public class Student
+public class Teacher
 {
-    public int StudentId { get; set; }
+    public int TeacherId { get; set; }
 
     public string UserId { get; set; }
     public ApplicationUser User { get; set; }

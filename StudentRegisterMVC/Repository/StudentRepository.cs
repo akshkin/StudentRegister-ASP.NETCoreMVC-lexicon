@@ -45,7 +45,7 @@ public class StudentRepository : IStudentRepository
         var newStudent = new Student();
         newStudent.FirstName = student.FirstName;
         newStudent.LastName = student.LastName;
-        newStudent.Email = student.Email;
+        //newStudent.Email = student.Email;
 
         await _context.Students.AddAsync(newStudent);
         await _context.SaveChangesAsync();
@@ -69,7 +69,7 @@ public class StudentRepository : IStudentRepository
 
         existingStudent.FirstName = student.FirstName;
         existingStudent.LastName = student.LastName;
-        existingStudent.Email = student.Email;
+        //existingStudent.Email = student.Email;
 
         await _context.SaveChangesAsync();
         return existingStudent;

@@ -338,3 +338,4 @@ C:\Users\aksh\Documents\lexicon\c-sharp\StudentRegisterMVC\StudentRegisterMVC\bi
 C:\Users\aksh\Documents\lexicon\c-sharp\StudentRegisterMVC\StudentRegisterMVC\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\aksh\Documents\lexicon\c-sharp\StudentRegisterMVC\StudentRegisterMVC\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\aksh\Documents\lexicon\c-sharp\StudentRegisterMVC\StudentRegisterMVC\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\aksh\Documents\lexicon\c-sharp\StudentRegisterMVC\StudentRegisterMVC\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

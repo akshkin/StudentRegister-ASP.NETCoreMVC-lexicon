@@ -3,28 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\data\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\data\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\ASPSTOCKAPP\\ASPSTOCKAPP\\Data\\ApplicationDBContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\WebAPIWorldCities\\WebAPIWorldCities\\Repository\\WorldCityRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -51,37 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "StudentRegisterMVC\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "StudentRegisterMVC\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-06T09:23:30.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "StudentRegisterMVC\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "StudentRegisterMVC\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAB0AAACDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-06T09:23:15.615Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -95,9 +84,74 @@
               "RelativeDocumentMoniker": "StudentRegisterMVC\\Views\\Students\\Index.cshtml",
               "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Views\\Students\\Index.cshtml",
               "RelativeToolTip": "StudentRegisterMVC\\Views\\Students\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAD4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-05T14:59:46.073Z",
+              "WhenOpened": "2026-02-09T18:55:53.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Views\\Students\\Create.cshtml",
+              "RelativeDocumentMoniker": "StudentRegisterMVC\\Views\\Students\\Create.cshtml",
+              "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Views\\Students\\Create.cshtml",
+              "RelativeToolTip": "StudentRegisterMVC\\Views\\Students\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-09T18:54:59.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "StudentRegisterMVC\\Models\\Teacher.cs",
+              "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Models\\Teacher.cs",
+              "RelativeToolTip": "StudentRegisterMVC\\Models\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T18:51:07.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "StudentRegisterMVC\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Models\\Student.cs",
+              "RelativeToolTip": "StudentRegisterMVC\\Models\\Student.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T14:21:06.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Repository\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "StudentRegisterMVC\\Repository\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Repository\\StudentRepository.cs",
+              "RelativeToolTip": "StudentRegisterMVC\\Repository\\StudentRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAASwCEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T11:37:04.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Data\\StudentDbContext.cs",
+              "RelativeDocumentMoniker": "StudentRegisterMVC\\Data\\StudentDbContext.cs",
+              "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Data\\StudentDbContext.cs*",
+              "RelativeToolTip": "StudentRegisterMVC\\Data\\StudentDbContext.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T13:44:06.212Z",
               "EditorCaption": ""
             },
             {
@@ -108,50 +162,66 @@
               "RelativeDocumentMoniker": "StudentRegisterMVC\\Views\\Students\\Edit.cshtml",
               "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Views\\Students\\Edit.cshtml",
               "RelativeToolTip": "StudentRegisterMVC\\Views\\Students\\Edit.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwB0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-05T11:04:16.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentsController.cs",
-              "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Controllers\\StudentsController.cs",
-              "RelativeDocumentMoniker": "StudentRegisterMVC\\Controllers\\StudentsController.cs",
-              "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Controllers\\StudentsController.cs",
-              "RelativeToolTip": "StudentRegisterMVC\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAkwEMAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T09:02:55.741Z",
+              "WhenOpened": "2026-02-09T18:55:26.59Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IStudentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Interfaces\\IStudentRepository.cs",
-              "RelativeDocumentMoniker": "StudentRegisterMVC\\Interfaces\\IStudentRepository.cs",
-              "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Interfaces\\IStudentRepository.cs",
-              "RelativeToolTip": "StudentRegisterMVC\\Interfaces\\IStudentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T09:38:56.265Z"
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Views\\Students\\Details.cshtml",
+              "RelativeDocumentMoniker": "StudentRegisterMVC\\Views\\Students\\Details.cshtml",
+              "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Views\\Students\\Details.cshtml",
+              "RelativeToolTip": "StudentRegisterMVC\\Views\\Students\\Details.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwB8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-09T18:55:38.746Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "StudentRegisterMVC\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "StudentRegisterMVC\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T13:45:56.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\ASPSTOCKAPP\\ASPSTOCKAPP\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "..\\ASPSTOCKAPP\\ASPSTOCKAPP\\Data\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\ASPSTOCKAPP\\ASPSTOCKAPP\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "..\\ASPSTOCKAPP\\ASPSTOCKAPP\\Data\\ApplicationDBContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T12:38:50.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "WorldCityRepository.cs",
               "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\WebAPIWorldCities\\WebAPIWorldCities\\Repository\\WorldCityRepository.cs",
               "RelativeDocumentMoniker": "..\\WebAPIWorldCities\\WebAPIWorldCities\\Repository\\WorldCityRepository.cs",
               "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\WebAPIWorldCities\\WebAPIWorldCities\\Repository\\WorldCityRepository.cs",
               "RelativeToolTip": "..\\WebAPIWorldCities\\WebAPIWorldCities\\Repository\\WorldCityRepository.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T09:30:30.565Z"
+              "WhenOpened": "2026-02-05T09:30:30.565Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "QueryOptions.cs",
               "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Helpers\\QueryOptions.cs",
               "RelativeDocumentMoniker": "StudentRegisterMVC\\Helpers\\QueryOptions.cs",
@@ -159,11 +229,12 @@
               "RelativeToolTip": "StudentRegisterMVC\\Helpers\\QueryOptions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T10:51:35.135Z"
+              "WhenOpened": "2026-02-05T10:51:35.135Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Program.cs",
               "RelativeDocumentMoniker": "StudentRegisterMVC\\Program.cs",
@@ -171,11 +242,12 @@
               "RelativeToolTip": "StudentRegisterMVC\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T08:51:12.206Z"
+              "WhenOpened": "2026-02-05T08:51:12.206Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "IWorldCityRepository.cs",
               "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\WebAPIWorldCities\\WebAPIWorldCities\\Interfaces\\IWorldCityRepository.cs",
               "RelativeDocumentMoniker": "..\\WebAPIWorldCities\\WebAPIWorldCities\\Interfaces\\IWorldCityRepository.cs",
@@ -183,11 +255,12 @@
               "RelativeToolTip": "..\\WebAPIWorldCities\\WebAPIWorldCities\\Interfaces\\IWorldCityRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T09:13:06.816Z"
+              "WhenOpened": "2026-02-05T09:13:06.816Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\WebAppMVC1\\WebAppMVC1\\Program.cs",
               "RelativeDocumentMoniker": "..\\WebAppMVC1\\WebAppMVC1\\Program.cs",
@@ -195,7 +268,8 @@
               "RelativeToolTip": "..\\WebAppMVC1\\WebAppMVC1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T08:52:03.433Z"
+              "WhenOpened": "2026-02-05T08:52:03.433Z",
+              "EditorCaption": ""
             }
           ]
         }
