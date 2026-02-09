@@ -8,9 +8,9 @@ namespace StudentRegisterMVC.Repository;
 
 public class StudentRepository : IStudentRepository
 {
-    private readonly StudentDbContext _context;
+    private readonly ApplicationDbContext _context;
 
-    public StudentRepository(StudentDbContext context)
+    public StudentRepository(ApplicationDbContext context)
     {
         _context = context;
 

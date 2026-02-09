@@ -4,14 +4,18 @@ using StudentRegisterMVC.Models;
 
 namespace StudentRegisterMVC.Data;
 
-public class StudentDbContext : IdentityDbContext<ApplicationUser>
+public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 {
-    public StudentDbContext(DbContextOptions<StudentDbContext> options) : base(options) 
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) 
     {
         
     }
 
     public DbSet<Student> Students { get; set;  }
+    public DbSet<Teacher> Teachers { get; set; }
+
+    public DbSet<Classroom> Classrooms { get; set; }
+
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
