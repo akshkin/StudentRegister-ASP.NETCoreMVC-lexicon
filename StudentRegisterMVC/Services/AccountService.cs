@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 using StudentRegisterMVC.DTOs;
 using StudentRegisterMVC.Interfaces;
 using StudentRegisterMVC.Models;
@@ -90,6 +89,22 @@ public class AccountService : IAccountService
         { 
             throw new Exception($"{ex.Message}", ex);
         }
+    }
+
+    public async Task<NewUserDto?> Login(LoginUserDto loginUserDto)
+    {
+        var existingUser = await _userManager.FindByEmailAsync(loginUserDto.EmailAddress);
+        if (existingUser == null) return null;
+
+        var isPasswordValid = await _signInManager.CheckPasswordSignInAsync(existingUser, loginUserDto.Password, false);
+        if (!isPasswordValid.Succeeded)  return null;
+
+        return new NewUserDto
+        {
+            UserName = existingUser.UserName,
+            Email = loginUserDto.EmailAddress,
+            Token = _tokenService.CreateToken(existingUser)
+        };
     }
 
 }

@@ -5,4 +5,6 @@ namespace StudentRegisterMVC.Interfaces;
 public interface IAccountService
 {
     public Task<NewUserDto?> CreateIdentityUser(RegisterDto registerDto);
+
+    public Task<NewUserDto?> Login(LoginUserDto loginUserDto);
 }
