@@ -20,5 +20,16 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
+
+        modelBuilder.Entity<Classroom>()
+            .HasMany(cs => cs.Students)
+            .WithMany(cs => cs.Classrooms)
+            .UsingEntity(j => j.ToTable("ClassroomStudents"));
+
+        modelBuilder.Entity<Classroom>()
+            .HasMany(cs => cs.Teachers)
+            .WithMany(s => s.Classrooms)
+            .UsingEntity(j => j.ToTable("ClassroomTeachers"));
+
     }
 }
