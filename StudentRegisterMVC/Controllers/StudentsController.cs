@@ -36,8 +36,8 @@ namespace StudentRegisterMVC.Controllers
             return View();
         }
 
-        // create a new student
-        [HttpPost]
+        //create a new student
+       [HttpPost]
         public async Task<IActionResult> Create([Bind("FirstName, LastName, Email")] Student student)
         {
             var newStudent = await _studentRepository.CreateAsync(student);

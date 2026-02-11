@@ -42,14 +42,9 @@ public class StudentRepository : IStudentRepository
 
     public async Task<Student> CreateAsync(Student student)
     {
-        var newStudent = new Student();
-        newStudent.FirstName = student.FirstName;
-        newStudent.LastName = student.LastName;
-        //newStudent.Email = student.Email;
-
-        await _context.Students.AddAsync(newStudent);
+        await _context.Students.AddAsync(student);
         await _context.SaveChangesAsync();
-        return newStudent;
+        return student;
     }
 
     public async Task<Student?> GetStudent(int? id)

@@ -57,8 +57,10 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-builder.Services.AddScoped<IStudentRepository, StudentRepository>();  
+builder.Services.AddScoped<IStudentRepository, StudentRepository>();
+builder.Services.AddScoped<ITeacherRepository, TeacherRepository>();
 builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<IAccountService, AccountService>();
 
 var app = builder.Build();
 
