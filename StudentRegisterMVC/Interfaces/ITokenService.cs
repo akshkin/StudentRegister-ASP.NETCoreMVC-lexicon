@@ -4,5 +4,5 @@ namespace StudentRegisterMVC.Interfaces;
 
 public interface ITokenService
 {
-    public string CreateToken(ApplicationUser user);
+    public Task<string> CreateToken(ApplicationUser user);
 }

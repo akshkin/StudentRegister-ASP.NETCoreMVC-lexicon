@@ -72,7 +72,7 @@ public class AccountService : IAccountService
                     {
                         UserName = appUser.UserName,
                         Email = appUser.Email,
-                        Token = _tokenService.CreateToken(appUser)
+                        Token = await _tokenService.CreateToken(appUser)
                     };
                 }
                 else
@@ -103,7 +103,7 @@ public class AccountService : IAccountService
         {
             UserName = existingUser.UserName,
             Email = loginUserDto.EmailAddress,
-            Token = _tokenService.CreateToken(existingUser)
+            Token = await _tokenService.CreateToken(existingUser)
         };
     }
 

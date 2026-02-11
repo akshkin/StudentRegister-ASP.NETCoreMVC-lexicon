@@ -37,7 +37,12 @@ public class AccountController : Controller
                 return BadRequest(ModelState);
             }
            var newUser = await _accountService.CreateIdentityUser(registerDto);
-            return Ok(newUser);
+            Response.Cookies.Append("jwt", newUser.Token, new CookieOptions
+            {
+                HttpOnly = false, // React would use JS to read it
+                Secure = false,   // for local dev
+            });
+            return RedirectToAction("Index", "Home");
         }
         catch (Exception ex)
         {
@@ -60,7 +65,12 @@ public class AccountController : Controller
             {
                 return BadRequest("Invalid password or email");
             }
-            HttpContext.Session.SetString("jwt", existingUser.Token);
+            //HttpContext.Session.SetString("jwt", existingUser.Token);
+            Response.Cookies.Append("jwt", existingUser.Token, new CookieOptions
+            {
+                HttpOnly = false, 
+                Secure = false,   // for local dev
+            });
             return RedirectToAction("Index", "Home");
         }
         catch (Exception ex) 
@@ -71,7 +81,7 @@ public class AccountController : Controller
 
     public async Task<IActionResult> Logout()
     {
-        HttpContext.Session.Clear();
+        Response.Cookies.Delete("jwt");
         return RedirectToAction("Index", "Home");
     }
 }

@@ -7,6 +7,7 @@ using StudentRegisterMVC.Interfaces;
 using StudentRegisterMVC.Models;
 using StudentRegisterMVC.Repository;
 using StudentRegisterMVC.Services;
+using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -53,7 +54,8 @@ builder.Services.AddAuthentication(options =>
         ValidAudience = builder.Configuration["JWT:Audience"],
         ValidateIssuerSigningKey = true,
         IssuerSigningKey = new SymmetricSecurityKey(
-            System.Text.Encoding.UTF8.GetBytes(builder.Configuration["JWT:SigningKey"]))
+            System.Text.Encoding.UTF8.GetBytes(builder.Configuration["JWT:SigningKey"])),
+        RoleClaimType = ClaimTypes.Role //add role to the token for role based authorization
     };
 });
 
@@ -61,13 +63,6 @@ builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 builder.Services.AddScoped<ITeacherRepository, TeacherRepository>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IAccountService, AccountService>();
-
-builder.Services.AddSession(options =>
-{
-    options.IdleTimeout = TimeSpan.FromHours(1);
-    options.Cookie.HttpOnly = true;
-    options.Cookie.IsEssential = true;
-});
 
 var app = builder.Build();
 
@@ -84,10 +79,23 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseRouting();
 
+//app.UseSession();
+// for the app to know authorized user
+app.Use(async (context, next) =>
+{
+    var token = context.Request.Cookies["jwt"];
+
+    if (!string.IsNullOrEmpty(token))
+    {
+        context.Request.Headers["Authorization"] = "Bearer " + token;
+    }
+
+    await next();
+});
+
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.UseSession();
 
 app.MapStaticAssets();
 

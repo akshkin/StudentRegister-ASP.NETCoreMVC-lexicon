@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using StudentRegisterMVC.Helpers;
 using StudentRegisterMVC.Interfaces;
@@ -19,6 +20,7 @@ namespace StudentRegisterMVC.Controllers
         }
 
         // GET: Students
+        [Authorize(Roles="Teacher")]
         public async Task<IActionResult> Index(QueryOptions queryOptions)
         {
             var students = await _studentRepository.GetAllAsync(queryOptions);
@@ -31,6 +33,7 @@ namespace StudentRegisterMVC.Controllers
             return View(viewModel);
         }
 
+        [Authorize(Roles="Admin")]
         public async Task<IActionResult> Create()
         {
             return View();
@@ -63,12 +66,8 @@ namespace StudentRegisterMVC.Controllers
             return RedirectToAction(nameof(Index));            
         }
 
-        //public async Task<IActionResult> Delete(int? id)
-        //{
-        //    var student = await _studentRepository.GetStudent(id);
-        //    return View(student);
-        //}
 
+        [Authorize(Roles = "Admin, Teacher")]
         [HttpPost]
         public async Task<IActionResult> Delete(int? id)
         {

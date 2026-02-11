@@ -3,7 +3,8 @@
 
 <ul class="navbar-nav align-items-center ms-auto">
     @* @if (signInManager.IsSignedIn(User)) *@
-    @if(Context.Session.GetString("jwt") != null)
+    @* @if(Context.Session.GetString("jwt") != null) *@
+    @if(Context.Request.Cookies["jwt"] != null)
     {
         <li class="nav-item">
             <form asp-controller="Account" asp-action="Logout">
