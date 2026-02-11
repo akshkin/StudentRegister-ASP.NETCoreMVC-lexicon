@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "StudentRegisterMVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "StudentRegisterMVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T14:20:58.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Program.cs",
               "RelativeDocumentMoniker": "StudentRegisterMVC\\Program.cs",
@@ -38,8 +55,7 @@
               "RelativeToolTip": "StudentRegisterMVC\\Program.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T14:12:15.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-11T14:12:15.287Z"
             },
             {
               "$type": "Document",
@@ -49,7 +65,7 @@
               "RelativeDocumentMoniker": "StudentRegisterMVC\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Controllers\\AccountController.cs",
               "RelativeToolTip": "StudentRegisterMVC\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDcAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwEoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-11T10:40:54.912Z",
               "EditorCaption": ""

@@ -3,27 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\services\\seedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\services\\seedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/StudentsRegisterLexicon/True/SqlTable/dbo.Students.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|c:\\users\\aksh\\documents\\lexicon\\c-sharp\\studentregistermvc\\studentregistermvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6004B885-8AFA-34C4-B6DA-A40E825DE244}|StudentRegisterMVC\\StudentRegisterMVC.csproj|solutionrelative:studentregistermvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,77 +34,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Program.cs",
-              "RelativeDocumentMoniker": "StudentRegisterMVC\\Program.cs",
-              "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Program.cs*",
-              "RelativeToolTip": "StudentRegisterMVC\\Program.cs*",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T14:12:15.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AccountService.cs",
-              "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Services\\AccountService.cs",
-              "RelativeDocumentMoniker": "StudentRegisterMVC\\Services\\AccountService.cs",
-              "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Services\\AccountService.cs",
-              "RelativeToolTip": "StudentRegisterMVC\\Services\\AccountService.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAcwGQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T10:32:21.251Z",
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "StudentRegisterMVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "StudentRegisterMVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-11T14:20:58.242Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Program.cs",
+              "RelativeDocumentMoniker": "StudentRegisterMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Program.cs",
+              "RelativeToolTip": "StudentRegisterMVC\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T14:12:15.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "StudentRegisterMVC\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "StudentRegisterMVC\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAkwDcAAAALAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Controllers\\AccountController.cs*",
+              "RelativeToolTip": "StudentRegisterMVC\\Controllers\\AccountController.cs*",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwEoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-11T10:40:54.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SeedService.cs",
-              "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Services\\SeedService.cs",
-              "RelativeDocumentMoniker": "StudentRegisterMVC\\Services\\SeedService.cs",
-              "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Services\\SeedService.cs",
-              "RelativeToolTip": "StudentRegisterMVC\\Services\\SeedService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-11T13:41:42.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "dbo.Students [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/StudentsRegisterLexicon/True/SqlTable/dbo.Students.sql",
-              "ToolTip": "dbo.Students [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-02-11T13:40:57.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "StudentRegisterMVC\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\aksh\\Documents\\lexicon\\c-sharp\\StudentRegisterMVC\\StudentRegisterMVC\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "StudentRegisterMVC\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-11T13:24:02.092Z",
               "EditorCaption": ""
             }
           ]

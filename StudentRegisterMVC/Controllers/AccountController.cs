@@ -68,4 +68,10 @@ public class AccountController : Controller
             return BadRequest($"Failed to login {ex.Message}");
         }
     }
+
+    public async Task<IActionResult> Logout()
+    {
+        HttpContext.Session.Clear();
+        return RedirectToAction("Index", "Home");
+    }
 }
